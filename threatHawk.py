@@ -118,7 +118,7 @@ def searchShodan(searchTerm):
         print ''
 
         # Show the results
-        print 'Total Results found: ' + results['total']
+        print 'Total Results Found: %s' % results['total']
         print ''
         for result in results['matches']:
             print 'IP: ' + result['ip_str']
